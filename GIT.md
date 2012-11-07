@@ -15,7 +15,11 @@ When you are working on a new feature create a new branch named `feature/name` f
 If you want to share your work with others push your topic branch to the remote server:
 
     in ~/workspace/project
-    $ git push origin feature/my-new-tiny-feature
+    $ git push --set-upstream origin feature/my-new-tiny-feature
+
+or shorter
+
+    $ git push -u origin feature/my-new-tiny-feature
 
 On the other hand if you want to fetch others work from remote server use:
 
